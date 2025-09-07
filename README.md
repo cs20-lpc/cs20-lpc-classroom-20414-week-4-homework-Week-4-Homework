@@ -5,9 +5,17 @@
 
 Design and implement a singly linked list in C++ to manage student records. 
 Each student has:
-  1. An integer id
-  2. A string name
-  3. A floating-point gpa
+  1. id
+  2. name
+  3. gpa
+  4. List of courses enrolled - 
+
+Use appropriate type for these attributes. 
+
+Each course has:
+  1. Course name
+  2. Instructor
+  3. Location
      
 Your linked list should support the following operations:
   1. Insert a student at the end of the list.
