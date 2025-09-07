@@ -14,15 +14,15 @@ Use appropriate type for these attributes.
 
 Each course has:
   1. Course name
-  2. Instructor
-  3. Location
+  2. Location
      
-Your linked list should support the following operations:
+Your dr should support the following operations:
   1. Insert a student at the end of the list.
   2. Delete a student by id.
-  3. Search for a student by id and display their details.
+  3. Search for a student by id and display their details. (should include list of all the courses taken)
   4. Display all students in the list.
   5. Count the number of students in the list.
+  6. Add a course to Student.
      
 Requirements:
   1. Do not use std::list or other STL containers. Implement the linked list manually using pointers.
@@ -41,7 +41,8 @@ Requirements:
 3. Search Student
 4. Display All
 5. Count Students
-6. Exit
+6. Add a course
+7. Exit
 Enter choice: 1
 Enter ID: 101
 Enter Name: Alice
@@ -54,12 +55,8 @@ Enter GPA: 3.5
 
 Enter choice: 4
 Students in List:
-101 Alice 3.8
+101 Alice 3.8 None
 102 Bob 3.5
-
-Enter choice: 3
-Enter ID to search: 102
-Found: 102 Bob 3.5
 
 Enter choice: 2
 Enter ID to delete: 101
@@ -68,6 +65,21 @@ Deleted student with ID 101
 Enter choice: 5
 Total students: 1
 
+Enter choice: 6
+Enter ID: 102
+Enter Course Name: CS20 Data Structures
+Enter location: 20700
+
+Enter choice: 6
+Enter ID: 102
+Enter Course Name: Maths 101
+Enter location: 20500
+
+Enter choice: 3
+Enter ID to search: 102
+Found: 102 Bob 3.5
+  Courses: CS20 Data Structures 20700
+           Math 101 20500 
   ```
 Make sure to run several tests to ensure your code is tested properly for all edge cases.
 
