@@ -32,7 +32,7 @@ Requirements:
   3. Write a LinkedList class that implements the required operations.
   
   4. In main(), present a menu-driven program to let the user test the functions.
-  5. Make sure to name your Student class files as Student.cpp/hpp (note S is uppercase) and the file that has main() function as main.cpp
+  5. Make sure to name your Student class files as Student.cpp/hpp and Course class as Course.cpp/hpp (note S and C are uppercase) and the file that has main() function as driver.cpp
 
   ## Sample Output:
   ```
